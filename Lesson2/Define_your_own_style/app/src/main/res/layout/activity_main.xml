@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lei.hw2_22.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edtNumber2"
+        style="@style/InputStyle"
+        android:layout_below="@+id/edtNumber1" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        style="@style/LabelAndButtonStyle"
+        android:layout_below="@+id/edtNumber2" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        style="@style/LabelAndButtonStyle"
+        android:layout_below="@+id/tvResult"
+        android:text="Add" />
+
+    <EditText
+        android:id="@+id/edtNumber1"
+        style="@style/InputStyle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp" />
+
+</RelativeLayout>
